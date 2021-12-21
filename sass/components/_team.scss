@@ -1,0 +1,119 @@
+
+/*Наша-команда*/
+.team {
+    background-color: $bgr-other;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.team__container {
+    text-align: center;
+}
+
+.team__title {
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    color: $title-main;
+}
+
+.team__ul {
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin-left: calc(-1 * 30px);
+    margin-top: calc(-1 * 30px);
+
+}
+
+.team__li {
+    flex-basis: calc(100%/ 4 - 30px);
+    margin-top: 30px ;
+    margin-left: 30px;
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    background-color: $bgr-white;
+}
+
+
+
+
+.team__wrap {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+.team__h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.8;
+    color: $title-main;
+}
+
+.team__text {
+    font-size: 16px;
+    line-height: 1.8;
+    color: $main-text;
+}
+
+.network__ul {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 16px;
+}
+.network__li {
+    width: 44px;
+    height: 44px;
+
+    &:not(:last-child) {
+        margin-right: 10px;
+    }
+    &:hover .network__icon,
+    &:focus .network__icon {
+        fill: $accent-icon;
+           }
+
+}
+
+
+
+.network__icon {
+    fill: $icons-one;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
+}
+
+.network__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: 50%;
+    background-color: $bgr-white;
+  
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover, 
+    &:focus {
+        background-color: $accent-color;
+     
+    }
+
+    
+}
+
+
+

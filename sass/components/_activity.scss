@@ -1,0 +1,96 @@
+/*Чем-мы=занимаемся*/
+.activity {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.activity__container {
+    text-align: center;
+}
+
+.activity__title {
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    color: $title-main;
+}
+.activity__ul {
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin-left: calc(-1 * 30px);
+    margin-top: calc(-1 * 30px);
+
+}
+.activity__li {
+    flex-basis: calc(100% / 3 - 30px);
+    margin-top: 30px;
+    margin-left: 30px;
+
+    position: relative;
+}
+
+.activity__li--one::after {
+    content: "Десктопные приложения";
+    position: absolute;
+    width: 370px;
+    background: rgba(47, 48, 58, 0.8);
+    
+    bottom: 0;
+    left: 0;
+    padding-top: 27px;
+    padding-bottom: 27px;
+
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $title-other;
+
+}
+
+.activity__li--two::after {
+    content: "Мобильные приложения";
+    position: absolute;
+    width: 370px;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8);
+    bottom: 0;
+    left: 0;
+    padding-top: 27px;
+    padding-bottom: 27px;
+
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $title-other;
+
+}
+.activity__li--three::after {
+    content: "Дизайнерские решения";
+    position: absolute;
+    width: 370px;
+    height: 70px;
+    
+    bottom: 0;
+    left: 0;
+    padding-top: 27px;
+    padding-bottom: 27px;
+
+    background: rgba(47, 48, 58, 0.8);
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $title-other;
+}

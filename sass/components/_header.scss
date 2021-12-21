@@ -1,0 +1,107 @@
+
+/*Хэдер*/
+.header {
+    border-bottom: 1px solid #ececec;
+}
+
+.header__container {
+    display: flex;    
+    align-items: center;
+    
+}
+
+
+
+.header__nav {
+    display: flex;
+    align-items: center;
+
+    
+}
+
+.header__ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+
+
+
+.header__li:not(:last-child) {
+    margin-right: 50px;
+
+
+}
+
+.header__link {
+    display: block;
+    position: relative;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: $header-text;
+
+
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   
+    &:focus, &:hover {
+        color: $accent-color;
+    }
+
+    &.current::after {
+        content: "";
+        width: 100%;
+        height: 4px;
+    
+        background-color: $accent-color;
+        border-radius: 2px;
+    
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        display: block;
+    }
+}
+
+
+.header__contact {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: $main-text;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover, &:focus {
+        color: $accent-color;
+    
+        
+    }
+
+    &:focus .header__icon, &:hover .header__icon {
+    fill: $accent-color;
+    }
+}
+
+
+
+
+.header__icon {
+    margin-right: 10px;
+    fill: $icons-two;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
