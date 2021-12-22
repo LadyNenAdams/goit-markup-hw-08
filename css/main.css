@@ -34,6 +34,24 @@ ul {
   margin: 0 auto;
 }
 
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 448px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -184,11 +202,18 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 118px;
+  padding-bottom: 118px;
   margin-right: auto;
   margin-left: auto;
   background-color: #2f303a;
+}
+
+@media screen and (min-width: 1200px) {
+  .hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
 }
 
 .hero__linear {
@@ -234,22 +259,52 @@ img {
 
 /*Наши-сильные-стороны*/
 .features {
-  padding-top: 94px;
+  padding-top: 60px;
   text-align: center;
 }
 
-.features__ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+@media screen and (min-width: 1200px) {
+  .features {
+    padding-top: 94px;
+  }
 }
 
-.features__li {
-  width: 270px;
+@media screen and (min-width: 768px) {
+  .features__ul {
+    width: calc(100% - 2 * 30px)/2;
+  }
 }
 
-.features__li:not(:last-child) {
-  margin-right: 30px;
+@media screen and (min-width: 1200px) {
+  .features__ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .features__li {
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .features__li {
+    width: 354px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .features__li {
+    width: 270px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .features__li:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .features__icon {
@@ -289,8 +344,15 @@ img {
 
 /*Чем-мы=занимаемся*/
 .activity {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .activity {
+    display: block;
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .activity__container {
