@@ -10,9 +10,7 @@
 }
 
 .features__ul {
-    @media screen and (min-width: 768px) {
-        width: calc(100% - 2 * 30px) / 2;
-     }
+    
     @media screen and (min-width: 1200px) {
         display: flex;
      }
@@ -22,11 +20,11 @@
 }
 
 .features__li {
-    @media screen and (min-width: 480px) {
         width: 450px;
-      }
+      
     @media screen and (min-width: 768px) {
-        width: 354px;
+        
+        flex-basis: calc(100% - 4 * 15px) / 2;
       }
     @media screen and (min-width: 1200px) {
         width: 270px;

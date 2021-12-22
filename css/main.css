@@ -269,12 +269,6 @@ img {
   }
 }
 
-@media screen and (min-width: 768px) {
-  .features__ul {
-    width: calc(100% - 2 * 30px)/2;
-  }
-}
-
 @media screen and (min-width: 1200px) {
   .features__ul {
     display: -webkit-box;
@@ -283,15 +277,14 @@ img {
   }
 }
 
-@media screen and (min-width: 480px) {
-  .features__li {
-    width: 450px;
-  }
+.features__li {
+  width: 450px;
 }
 
 @media screen and (min-width: 768px) {
   .features__li {
-    width: 354px;
+    -ms-flex-preferred-size: calc(100% - 4 * 15px)/2;
+        flex-basis: calc(100% - 4 * 15px)/2;
   }
 }
 
