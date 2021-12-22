@@ -27,21 +27,38 @@
 
 
 .customers__ul {
-    display: flex;
+       display: flex;
     justify-content: center;
+    @media screen and (max-width: 1199px) {
+    flex-wrap: wrap;
+}
 }
 
 .customers__li {
-    display: flex;
-    width: 170px;
+    
+    flex-basis: calc(100% / 2 - 4 * 15px );
+
+    @media screen and (min-width: 768px) {
+        width: 226px;
+        flex-basis: calc(100% / 3 - 6 * 15px );
+    }
+    @media screen and (min-width: 1200px) {
+        width: 170px;
+    }
+    
+    
+
+    width: 210px;
+    
     height: 90px;
     
-    &:not(:last-child) {
-    margin-right: 30px;
+    
 }
 
 }
 
+.customers__li:not(:last-child) {
+    // margin-right: 30px; НАЧИНАТЬ ЗДЕСЬ
 
 
 .customers__link {
