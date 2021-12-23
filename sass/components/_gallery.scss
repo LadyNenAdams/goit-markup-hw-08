@@ -1,14 +1,25 @@
 
 
 .gallery__ul {
-    display: flex;
-    flex-wrap: wrap;
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+     flex-wrap: wrap;
+}
+   
     
     margin-left: calc(-1 * 30px);
     margin-top: calc(-1 * 30px);
 }
 
 .gallery__li {
+    @media screen and (min-width: 768px) {
+        flex-basis: calc(100%/ 2 - 60px);
+    }
+    @media screen and (min-width: 1200px) {
+        flex-basis: calc(100%/ 3 - 30px);
+    }
+
     flex-basis: calc(100%/ 3 - 30px);
     
     width: 370px;
