@@ -10,23 +10,36 @@
     
 }
 
-
+.header__menu--btn {
+    margin-left: auto;
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+}
 
 .header__nav {
-display: none;
+    display: none;
+    @media screen and (min-width: 1200px) {
+        display: flex;
+    align-items: center;
+    }
 
-    // display: flex;
-    // align-items: center;
+
+    
 
     
 }
 
 .header__ul {
     display: none;
-    // display: flex;
-    // align-items: center;
-    // justify-content: center;
-    // margin-left: auto;
+    @media screen and (min-width: 1200px) {
+        display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin-left: auto;
+    }
+    
+   
 }
 
 
