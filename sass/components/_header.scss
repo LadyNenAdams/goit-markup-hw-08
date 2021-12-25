@@ -14,7 +14,8 @@
 
 .header__nav {
     display: none;
-    @media screen and (min-width: 1200px) {
+
+    @media screen and (min-width: 768px) {
         display: flex;
     align-items: center;
     }
@@ -27,30 +28,51 @@
 
 .header__ul {
     display: none;
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 768px) {
         display: flex;
     align-items: center; 
     justify-content: center;
-    margin-left: auto;
     }
     
    
 }
 
+.header__ul--contact {
+    display: none;
+    @media screen and (min-width: 768px) {
+        display: inline;
+        margin-left: auto;
+    }
 
-
-.header__li:not(:last-child) {
-    margin-right: 50px;
-
-
+    
+    @media screen and (min-width: 1200px) {
+        display: flex;
+    align-items: center; 
+    justify-content: center;
+    
+    }
 }
 
+
+.header__li {
+    margin-right: 50px; 
+}
+@media screen and (min-width: 1200px) {
+    .header__li:not(:last-child) {
+    margin-right: 50px;
+
+}
+}
+
+
 .header__link {
-    display: block;
+    @media screen and (min-width: 1200px) {    
+        display: block;
     position: relative;
 
     padding-top: 32px;
     padding-bottom: 32px;
+ }
 
     font-weight: 500;
     font-size: 14px;
@@ -108,7 +130,11 @@
 
 
 .header__icon {
-    margin-right: 10px;
+    @media screen and (min-width: 1200px) {
+        margin-right: 10px;
+    }
+
+    
     fill: $icons-two;
     transition-property: fill;
     transition-duration: 250ms;
