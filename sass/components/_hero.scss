@@ -107,10 +107,14 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
-    font-size: 44px;
+    font-size: 26px;
     line-height: 1.36;
     text-transform: uppercase;
     color: $title-other;
+
+    @media screen and (min-width: 1200px) {
+        font-size: 44px;
+    }
 }
 
 .hero__btn {
