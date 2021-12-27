@@ -21,8 +21,8 @@
 
 .team__ul {
     @media screen and (min-width: 768px) {
-            display: flex;
-         flex-wrap: wrap;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     
@@ -34,7 +34,8 @@
 .team__li {
     
     
-    margin-top: 30px ;
+    margin-top: 30px;
+    margin-left: 30px;
 
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -51,16 +52,6 @@
         
  }
 }
-@media screen and (min-width: 768px) {
-.team__li:nth-child(even) {
-    margin-left: 30px;
-}
-}
-@media screen and (min-width: 1200px) {
-    .team__li:not(:first-child) {
-        margin-left: 30px;
-    }
-    }
 
 
 

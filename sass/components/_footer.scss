@@ -51,6 +51,9 @@
     }
     
 }
+.footer__li:not(:last-child) {
+    margin-bottom: 9px;
+}
 
 .footer__link {
     font-style: normal;
@@ -60,9 +63,7 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    &:not(:last-child) {
-        margin-bottom: 9px;
-    }
+    
     &:focus, &:hover {
         color: $accent-color;
     
