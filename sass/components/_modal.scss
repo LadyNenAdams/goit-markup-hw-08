@@ -169,7 +169,12 @@ color: rgba(117, 117, 117, 0.5);
 .form__text {
     margin-bottom: 30px;
     font-style: normal;
-font-size: 14px;
+
+    @media screen and (min-width: 1200px) {
+        font-size: 14px;  
+    }
+
+font-size: 12px;
 line-height: 1.7;
 
 letter-spacing: 0.03em;

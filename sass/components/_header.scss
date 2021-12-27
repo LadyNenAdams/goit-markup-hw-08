@@ -14,13 +14,17 @@
 
 .header__nav {
     display: none;
+    margin-left: 88px;
 
     @media screen and (min-width: 768px) {
         display: flex;
     align-items: center;
     }
 
+    @media screen and (min-width: 1200px) {
+        margin-left: 93px;
 
+    }
     
 
     
@@ -72,10 +76,12 @@
 
     padding-top: 32px;
     padding-bottom: 32px;
+
+    font-size: 14px;
  }
 
     font-weight: 500;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.14;
     color: $header-text;
 
