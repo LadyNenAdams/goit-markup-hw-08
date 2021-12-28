@@ -925,6 +925,12 @@ img {
   }
 }
 
+@media screen and (min-width: 1199px) {
+  .footer__title--three {
+    margin-right: 350px;
+  }
+}
+
 .icon__ul {
   display: -webkit-box;
   display: -ms-flexbox;

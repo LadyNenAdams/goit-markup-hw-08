@@ -91,6 +91,12 @@
     }
 }
 
+.footer__title--three {
+    @media screen and (min-width: 1199px) {
+         margin-right: 350px;
+    }
+   
+}
 
 .icon__ul 
 {    display: flex;    
