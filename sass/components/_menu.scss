@@ -1,8 +1,14 @@
 .header__menu--btn {
 
-position: absolute;
-top: 0;
-right: 0;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    right: 0;
+
 
 
     cursor: pointer;
@@ -18,7 +24,7 @@ right: 0;
     }
 &:hover .header__menu--icon, &:focus .header__menu--icon {
     fill: $accent-color;
-}
+    }
 }
 .header__menu--icon {
     fill: $btn-text-one;
