@@ -820,10 +820,6 @@ img {
   background-color: #2f303a;
 }
 
-.footer__container {
-  text-align: center;
-}
-
 @media screen and (min-width: 1200px) {
   .footer__container {
     display: -webkit-box;
@@ -922,12 +918,6 @@ img {
 @media screen and (max-width: 1199px) {
   .footer__title {
     text-align: center;
-  }
-}
-
-@media screen and (min-width: 1199px) {
-  .footer__title--three {
-    margin-right: 350px;
   }
 }
 

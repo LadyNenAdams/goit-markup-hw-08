@@ -20,7 +20,7 @@
         flex-wrap: wrap;
         justify-content: space-around;
     }
-    text-align: center;
+    // text-align: center;
 }
 
 
@@ -91,12 +91,7 @@
     }
 }
 
-.footer__title--three {
-    @media screen and (min-width: 1199px) {
-         margin-right: 350px;
-    }
-   
-}
+
 
 .icon__ul 
 {    display: flex;    
