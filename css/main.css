@@ -378,12 +378,14 @@ img {
 /*Наши-сильные-стороны*/
 .features {
   padding-top: 60px;
+  padding-bottom: 60px;
   text-align: center;
 }
 
 @media screen and (min-width: 1200px) {
   .features {
     padding-top: 94px;
+    padding-bottom: 94px;
   }
 }
 
@@ -556,9 +558,16 @@ img {
 /*Наша-команда*/
 .team {
   background-color: #f5f4fa;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .team__title {
@@ -691,9 +700,16 @@ img {
 
 /*Постоянные клиенты*/
 .customers {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #ffffff;
+}
+
+@media screen and (min-width: 1200px) {
+  .customers {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .customers__container {
