@@ -17,8 +17,13 @@
         
         display: flex;
         flex-wrap: wrap;
+        
      }
-    
+
+     @media screen and (min-width: 1200px) {
+    margin-bottom: 0;
+     }
+     margin-bottom: -30px;
      margin-right: -30px;
 
 }
@@ -26,14 +31,16 @@
 .features__li {
     
     margin-right: 30px;
-      
+    margin-bottom: 30px;
     @media screen and (min-width: 768px) {
         
         width: calc(100% / 2 - 4 * 15px );
+        
     }
     
     @media screen and (min-width: 1200px) {
         width: 270px;
+        margin-bottom: 0;
       }
     
 
