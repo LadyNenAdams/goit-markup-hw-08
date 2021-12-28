@@ -951,10 +951,9 @@ img {
     margin-right: auto;
     margin-left: auto;
   }
-}
-
-.icon__li:not(:last-child) {
-  margin-right: 10px;
+  .icon__li:not(:last-child) {
+    margin-right: 10px;
+  }
 }
 
 .icon__link {
