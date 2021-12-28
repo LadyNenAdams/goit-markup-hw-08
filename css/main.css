@@ -100,6 +100,23 @@ img {
           align-items: center;
 }
 
+@media screen and (min-width: 480px) {
+  .header__container {
+    padding-left: 15px;
+    padding-right: 23px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .header__container {
+    padding-right: 25px;
+    padding-bottom: 26px;
+    padding-top: 26px;
+  }
+}
+
 .header__nav {
   display: none;
   margin-left: 88px;
