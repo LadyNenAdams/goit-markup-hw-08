@@ -579,7 +579,6 @@ img {
 
 .team__ul {
   margin-left: calc(-1 * 30px);
-  margin-top: calc(-1 * 30px);
 }
 
 @media screen and (min-width: 768px) {
@@ -731,7 +730,6 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
   margin-left: -30px;
-  margin-top: -30px;
 }
 
 @media screen and (max-width: 1199px) {
