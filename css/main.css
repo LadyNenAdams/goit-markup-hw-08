@@ -931,29 +931,25 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-@media screen and (min-width: 1200px) {
-  .icon__ul {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: -10px;
 }
 
 .icon__li {
   width: 44px;
   height: 44px;
-}
-
-@media screen and (max-width: 1199px) {
-  .icon__li {
-    margin-right: auto;
-    margin-left: auto;
-  }
-  .icon__li:not(:last-child) {
-    margin-right: 10px;
-  }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 10px;
 }
 
 .icon__link {

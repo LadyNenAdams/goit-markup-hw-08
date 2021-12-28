@@ -92,29 +92,19 @@
 }
 
 
-
-.icon__ul {
-    display: flex;
-    @media screen and (min-width: 1200px) {
-        justify-content: center;
-    }
-    
-        
-    
+.icon__ul 
+{    display: flex;    
+    justify-content: center; 
+    margin-left: -10px; 
     
 }
-
-.icon__li {
-    @media screen and (max-width: 1199px) {
-        margin-right: auto;
-        margin-left: auto;
-        &:not(:last-child) {
-            margin-right: 10px;
-        }
-    }
-    
+.icon__li {    
     width: 44px;
     height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
 
 }
 
