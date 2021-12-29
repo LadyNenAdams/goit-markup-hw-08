@@ -11,7 +11,7 @@
     cursor: pointer;
 
     background: $bgr-white;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: none;
     box-sizing: border-box;
 
     
@@ -67,7 +67,7 @@ z-index: 5;
     cursor: pointer;
 
     background: $bgr-white;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: none;
     box-sizing: border-box;
     border-radius: 50%;
     transition-property: fill;
@@ -133,6 +133,7 @@ fill: $accent-color;
 .menu__contact--mob {
     font-size: 34px;
     line-height: 1.17;
+    color: $accent-color;
 }
 .menu__contact--mail {
     font-size: 28px;
@@ -153,6 +154,7 @@ margin-right: 20px;
     line-height: 1.22;
     color: $header-text;
     letter-spacing: 2%;
+    color: $accent-color;
 
 
 

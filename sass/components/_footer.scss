@@ -22,6 +22,12 @@
     }
 }
 
+.footer__one {
+    @media screen and (max-width: 1199px) {
+       text-align: center; 
+    }
+    
+}
 
 .footer__logo {
     text-align: center;
@@ -41,18 +47,15 @@
     }
 }
 
-.footer__text {
-
-    @media screen and (min-width: 1200px) {
-        margin-bottom: 9px;
-    }
+.footer__address--li {
+        
+    margin-top: 9px;
     
 }
-.footer__li:not(:last-child) {
-    margin-bottom: 9px;
-}
+
 
 .footer__link {
+    
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;

@@ -18,19 +18,29 @@
     margin-right: auto;
 
     font-weight: bold;
-    font-size: 36px;
+    font-size: 28px;
     line-height: 1.16;
     color: $title-main;
+
+
+
+    @media screen and (min-width: 1200px) {
+        font-size: 36px;
+    }
+
+
 }
 
 .team__ul {
+    margin-left: -30px;
+    margin-top: -30px;
     @media screen and (min-width: 768px) {
         display: flex;
         flex-wrap: wrap;
     }
 
     
-    margin-left: calc(-1 * 30px);
+
 
 }
 
