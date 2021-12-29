@@ -39,23 +39,30 @@
     @media screen and (max-width: 1199px) {
     flex-wrap: wrap;
     }
+
+    @media screen and (max-width: 1199px) {
+        margin-top: -30px;
+        padding-bottom: 94px;  
+    }
     margin-left: -30px; 
-    margin-top: -30px;
+    
 }
 
 .customers__li {
     margin-left: 30px; 
 
-    margin-top: 30px;
+    
     @media screen and (max-width: 767px) {
           flex-basis: calc(100% / 2 - 4 * 15px);  
+          margin-top: 30px;
     }
    
    
 
     @media screen and (min-width: 768px) and (max-width: 1199px) {
         width: 226px;
-        flex-basis: calc(100% / 3 - 6 * 15px);       
+        flex-basis: calc(100% / 3 - 6 * 15px);   
+        margin-top: 30px;    
     }
 
     @media screen and (min-width: 1200px) {

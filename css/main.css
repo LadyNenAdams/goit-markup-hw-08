@@ -754,7 +754,6 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
   margin-left: -30px;
-  margin-top: -30px;
 }
 
 @media screen and (max-width: 1199px) {
@@ -764,9 +763,15 @@ img {
   }
 }
 
+@media screen and (max-width: 1199px) {
+  .customers__ul {
+    margin-top: -30px;
+    padding-bottom: 94px;
+  }
+}
+
 .customers__li {
   margin-left: 30px;
-  margin-top: 30px;
   width: 210px;
   height: 90px;
 }
@@ -775,6 +780,7 @@ img {
   .customers__li {
     -ms-flex-preferred-size: calc(100% / 2 - 4 * 15px);
         flex-basis: calc(100% / 2 - 4 * 15px);
+    margin-top: 30px;
   }
 }
 
@@ -783,6 +789,7 @@ img {
     width: 226px;
     -ms-flex-preferred-size: calc(100% / 3 - 6 * 15px);
         flex-basis: calc(100% / 3 - 6 * 15px);
+    margin-top: 30px;
   }
 }
 
