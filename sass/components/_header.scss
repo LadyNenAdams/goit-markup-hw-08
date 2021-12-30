@@ -7,15 +7,13 @@
 .header__container {
     display: flex;    
     align-items: center;
-    @media screen and (min-width: 480px) and (max-width: 767px) {
-        
-        padding-bottom: 16px;
-        padding-top: 16px;
-    }
+    
+   
+
     @media screen and (min-width: 768px) and (max-width: 1199px) {
     
-        padding-bottom: 26px;
-        padding-top: 26px;
+        padding-bottom: 16px;
+        padding-top: 16px;
     }
     
 }
@@ -72,6 +70,9 @@
 .header__li {
     margin-right: 50px; 
 }
+
+
+
 @media screen and (min-width: 1200px) {
     .header__li:not(:last-child) {
     margin-right: 50px;
@@ -79,6 +80,13 @@
 }
 }
 
+
+    .header__li--contact:not(:last-child) {
+
+        @media screen and (min-width: 768px) and (max-width: 1199px){
+    margin-bottom: 10px;}
+
+}
 
 .header__link {
     @media screen and (min-width: 1200px) {    

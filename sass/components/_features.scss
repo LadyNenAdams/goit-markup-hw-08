@@ -2,8 +2,10 @@
 /*Наши-сильные-стороны*/
 .features {
     padding-top: 60px;
+    padding-bottom: 60px;
     @media screen and (min-width: 1200px) {
        padding-top: 94px; 
+       padding-bottom: 94px;
     }
      
     text-align: center;
@@ -32,7 +34,7 @@
     margin-bottom: 30px;
     @media screen and (min-width: 768px) {
         
-        width: calc(100% / 2 - 4 * 15px );
+        width: calc(100% / 2 - 2 * 15px );
         
     }
     
